@@ -40,7 +40,7 @@ class Enemy(pg.sprite.Sprite):
         self.image = pg.image.load("space-invaders.png").convert_alpha()
         self.mask = pg.mask.from_surface(self.image)
         self.rect = self.image.get_rect()
-        self.rect.x = randint(5, 735)
+        self.rect.x = randint(100, 700)
         self.rect.y = randint(20, 100)
 
 
